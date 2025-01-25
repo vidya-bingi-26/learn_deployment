@@ -1,0 +1,31 @@
+server:a software that serves which can be anything a laptop,a phone ,etc.
+backend: 
+1.a programming lang(js,java,php,golang,c++) ->on a framework
+2.a database [mongo,mysql,postgress,sqlite] -> ODM ORM
+
+handle 3 types of info in backend:
+a.data
+b.files
+c.Third party api
+
+js runtime : node js/deno/bun
+
+src
+  index ->database connection hota hai
+  app->config,cookies,urlencode
+  constants ->enums,db-name
+
+  directory:
+  ->db
+  ->models (define structure of database)
+  ->Controllers (functions jo data lete hai aur processs karte hai)
+  ->Routes (konse url pe kya hona chaiye)
+  ->Middleware
+  ->utils (jo cheeje bohat jagah use karni ho unko likhte hai)
+  ->More (depends)
+
+  express: request ko server tak leke jata hai aur response ko vapas source tak leke aata hai 
+
+  types of req: get,post
+
+  npm init:initialize a app
